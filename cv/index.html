@@ -24,6 +24,7 @@
   :root{
     --paper:#FBF8F4; --encre:#201A16; --cacao:#4E342E;
     --taupe:#8D7B6C; --sable:#D8CCC0; --pierre:#B0A292;
+    --brun:#281812; --cacaotaupe:#786659;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{background:var(--paper);}
@@ -32,17 +33,18 @@
     color:var(--encre); line-height:1.65;
     max-width:40rem; margin:0 auto; padding:4.5rem 1.5rem 3rem;
   }
+  /* En-tete calque sur le CV LaTeX : nom 15.4pt / poste 18.9pt / sous-titre 10.3pt */
   h1{
     font-variant:small-caps; font-weight:400; color:var(--cacao);
-    font-size:2.6rem; letter-spacing:.1em; line-height:1.15;
+    font-size:1.9rem; letter-spacing:.1em; line-height:1.1;
   }
   .role{
-    font-style:italic; color:var(--taupe);
-    font-size:1.3rem; margin-top:.35rem;
+    font-weight:700; color:var(--brun);
+    font-size:2.35rem; line-height:1.1;
   }
   .subrole{
-    font-style:italic; color:var(--taupe);
-    font-size:1.1rem; margin-top:.1rem;
+    font-style:italic; color:var(--cacaotaupe);
+    font-size:1.28rem; margin-top:.3rem;
   }
   .brandrule{margin:1.4rem 0 1.2rem; width:100%;}
   .brandrule .a{height:4px; background:var(--cacao);}
